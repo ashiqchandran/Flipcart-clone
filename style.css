@@ -1,0 +1,335 @@
+body{
+    background-color: #f8f5f5;
+}
+.navbar-main{
+    
+    height: 67px;
+    background-color:white;    
+}
+.nav-bar-fixed-box{
+  height: 67px;
+  background-color:white; 
+  width: 1540px;
+  position: fixed;
+}
+.content-box
+{
+    background-color:white;
+    margin-left:80px ;
+    height: 40;
+    width: 1400px;
+    display: flex;
+    border-radius: 20px;
+
+}
+
+.logo-space{
+  height: 40px;
+  width: 80px;
+  margin-top: 10px;
+}
+.search-box{
+    margin-left: 100px;
+    margin-top: 5px;
+   
+    
+}
+#search-product{
+    width:709px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(238, 239, 240);
+    margin-top: 10px;
+   
+}
+.login
+{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.user-logo{
+    width: 40px;
+    height: 35px;
+    margin-top: 8px;
+}
+.login-contents{
+    display: flex;
+}
+
+.user-button{
+  background-color: white;
+  border: none;
+}
+.login-contents {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-box{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-box .user-a-links{
+
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-box .user-a-links:hover .dropdown-contents-box:hover{
+  background-color: #ddd;  
+}
+.login-contents:hover .dropdown-box{display: block;}
+.login-contents:hover .dropdown-box{display: block;}
+
+.cart-box{
+  margin-top: 10px;
+    margin-left: 20px;
+}
+.cart-image{
+    margin-top: 8px;
+    width: 40px;
+    height: 35px;
+}
+.cart-objects
+{
+    display: flex;
+}
+.bestseller-box{
+  margin-top: 10px;
+    margin-left: 20px;
+}
+.seller-objects{
+    display: flex;
+}
+.cart{
+    margin: 7px;
+    width: 40px;
+    height: 35px;
+}
+.seller{
+    margin: 7px;
+    width: 40px;
+    height: 35px;
+}
+.text-space{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.product-showcase-box{
+    
+    margin-top: 10px;
+}
+.product-showcase{
+    display: flex;
+   
+    background-color: white;
+    
+}
+.item{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+/* carosel box css*/
+.carosel-main-box{
+  margin-top: 10px;
+  height: 250px;
+  width: 1540px;
+ 
+}
+.content-box-1{
+  height: 250px;
+  width: 1540px;
+  background-image: url('images/offer1.webp');
+  background-repeat: no-repeat;
+ 
+}
+  .premium-product-box{
+    display: flex;
+    margin-top: 15px;
+    background-color: white;
+  }
+  .premium-products{
+    background-color: white;
+  }
+  .premium-products-list{
+    display: flex;
+  }
+  .premium-items{
+    margin-left: 15px;
+    border: 1px solid rgb(224, 222, 222);
+   
+  }
+ 
+  .akasa{
+    margin-left: 15px;
+    height:350px ;
+    width:200px;
+    border:1px solid red;
+    background-color:blue ;
+
+  }
+  
+  .akasa-box-2{
+    height:330px ;
+    width:190px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;;
+    border:1px solid red;
+    background-color:rgb(99, 68, 221) ;
+    border-radius: 12px;
+   
+
+  }
+  
+  .akasa-box-3-1{
+    height:190px ;
+    
+    width:190px;
+    border-radius:13px;
+  }
+  .akasa-img{
+    height:170px ;
+    margin-top: 10px;
+    margin-left: 10px;
+    width:170px;
+  }
+  .akasa-code{
+    background-color: yellow;
+    width: 174px;
+    margin-left: 8px;
+ text-align: center;
+  }
+  .akasa-box-3-3{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+
+   
+  }
+ .premium-product-image{
+    height:220px ;width:200px;margin-top:50px;
+    transition: .5s;
+ }
+ .premium-product-image:hover{
+    margin-top: -5px;
+
+ }
+ .gadgets-box{
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 30px;
+ }
+ .best-gadgets{
+    width: 470px;
+   
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+ }
+ .row-1,.row-2{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 300px;
+ }
+ .gadget-items{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 290px;
+    border: 1px solid rgb(219, 216, 216);
+ }
+.gadget-img{
+   
+    width: 200px;
+    height: 200px;
+    transition: .5s;
+   
+ }
+ .gadget-img:hover{
+    margin-top: -5px;
+ }
+ .gadget-hilight{
+    color: rgb(16, 131, 16);
+ }
+ .trending-advertisement{
+    height: 620px;
+    margin-top: 60px;
+    background-color: green;
+    width:1000px;
+   
+ }
+ /* flipcart text contents*/
+.min-text-box{
+  margin-top: 10px;
+  background-color: #f6f2f2;
+  color: #5c5b5b;
+}
+ .paragraph-1{
+ 
+  width: 1450px;
+  margin-left: 50px;
+ }
+ .flipcart-text-head{
+  font-size: 18px;
+ }
+ .flipcart-destination-text,.grosery-text{
+  font-size: 14px;
+  
+  font-style: inherit;
+  font-family: system-ui;
+  font-weight:normal;
+ }
+ /* footer styles*/
+ .footer-box{
+  background-color: black;
+  margin-top: 10px;
+ }
+ .footer-head{
+  margin-left: 30px;
+ }
+ .footer-contents-box-spacing{
+  margin-top: 20px;
+ }
+ .footer-contents-box{
+  display: flex;
+  height: 350px;
+  color: grey;
+  margin-left: 10px;
+  padding-top: 40px;
+  
+ }
+  .footer-contents{
+    height: 20px;margin-left: 20px;
+    font-size: 12px;
+    
+    
+  }
+  .vertical-line{
+    width: 1px;
+    height: 250px;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: white;
+  }
+  ul,li{
+    list-style-type:none;
+    color: white;
+  }
+  .social-box{
+    display: flex;
+  }
+  .social-media{
+    margin-left: 15px;
+  }
+  .social-media-img{
+    width: 50px;
+    height: 50px;
+  }
